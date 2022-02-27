@@ -1,0 +1,28 @@
+html {
+    /*Visualizar nuestros elementos html distinto*/
+    box-sizing: content-box;
+}
+ /*Heredar a todos los hijos*/
+html *{
+    box-sizing: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding: 22px;
+    box-shadow: 1px 2px 5px rgb(0,0,0,0.3);
+    /*Aseguramos que nuestro box se visualice*/
+    z-index: 2;
+    /*Es requerida la posicion*/
+    position: relative;
+}
+
+header input {
+    outline: none;
+    border: solid 1px #eee;
+    padding: 10px 5px;
+    border-radius: 5px;
+}
+
